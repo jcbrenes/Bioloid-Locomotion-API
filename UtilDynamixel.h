@@ -311,7 +311,7 @@ uint8_t set_PosVelPreload(uint8_t id, uint16_t pos, uint16_t vel,uint8_t type_po
                                                  	 	 	 dicha tabla se encuentra en BioloidPosDef.h al igual que el vector Dynamixels.
                                                  	 	 	 Column indica la columna de la tabla que se quiere cargar, en este caso es la columna 0.
 */
-void set_PosSync(uint8_t *id, const uint16_t pos[][NUM_DYNAMIXELS],uint8_t column,uint8_t type);
+void set_PosSync(uint8_t *id, uint16_t pos[][NUM_DYNAMIXELS],uint8_t column,uint8_t type);
 
 /*  Función set_VelSync *//*
   Establece la velocidad de cada dynamixel contenida en una tabla o matriz.

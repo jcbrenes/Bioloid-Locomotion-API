@@ -529,7 +529,7 @@ uint8_t set_PosVelPreload(uint8_t id, uint16_t pos, uint16_t vel,uint8_t type_po
 }
 
 /* Función set_PosSync */
-void set_PosSync(uint8_t *id,const uint16_t pos[][NUM_DYNAMIXELS],uint8_t column, uint8_t type){
+void set_PosSync(uint8_t *id, uint16_t pos[][NUM_DYNAMIXELS],uint8_t column, uint8_t type){
 
 	  uint8_t i=0, num_dyna;
       uint16_t cnt=0;
